@@ -1,0 +1,212 @@
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 3vw;
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    height: 25vw;
+    width: 100%;
+    background: linear-gradient(to top,
+    aliceblue, whitesmoke, whitesmoke, aliceblue);
+    align-items:center;
+    justify-content: center;
+}
+.header__logo{
+    display: flex;
+    flex-direction:row;
+    flex-basis: 66.6666666666666%;
+}
+.header__sub-logo {
+    flex-basis: 50%;
+}
+
+.header__main-logo {
+    flex-basis: 50%;
+}
+.logo__img{
+    width:30vw;
+}
+
+
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+
+.contacts__sign-for {
+    display: block;
+    width: 90%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    
+    text-align: center;
+    color: white;
+    padding: 1vw 2vw 1vw 2vw;
+    background: linear-gradient(to bottom, #AA272D 0%,#8D2428 100%);
+    border-radius: 20vw;
+}
+
+.header__menu{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content:space-between;
+    background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); 
+    
+}
+
+.header__menu__item {
+    
+    padding: 1vw 2vw 1vw 2vw;
+    
+    
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); 
+}
+
+
+
+
+.content__slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider__item {
+    display: flex;
+    width: 100%;
+    height: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    color: white;
+    flex-basis: 20%;
+    transition: all 0.5s;
+    border: 0.3vw solid black;
+
+}
+
+.slider__item:hover {
+    flex-basis: 100%;
+
+}
+
+.slider__moto {
+    font-size: 4vw;
+    margin-top: 65vw;
+}
+
+.item-1 {
+    background-image: url(../img/mainpage.jpg);
+    background-size: cover;
+}
+
+.item-2 {
+    background-image: url(../img/fielbarbell.jpg);
+    background-size: cover;
+}
+
+.item-3 {
+    background-image: url(../img/fieldrough.jpg);
+    background-size: cover;
+}
+
+.item-4 {
+    background-image: url(../img/field.jpg);
+    background-size: cover;
+}
+
+.item-5 {
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+}
+
+.content__info {
+    display: flex;
+    width: 100%;
+    
+    text-align: justify;
+    background: linear-gradient(to left,
+    DarkSlateGray, LightSlateGray, SlateGray, LightSlateGray, DarkSlateGray);
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.info__text {
+    text-indent: 5vw;
+    color: white;
+}
+
+.text__beginning {
+    color: black;
+    text-shadow: 1vw 1vw 2vw black, 0 0 1vw LightCyan;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    border-top:0.3vw solid black;
+    
+    width: 100%;
+    height: 20vw;
+    background: linear-gradient(to top,
+    aliceblue, whitesmoke, whitesmoke, aliceblue);
+    
+}
+
+.footer__menu {
+    
+    display: flex;
+    flex-direction:column;
+    flex-basis:20%;
+    padding-left: 5vw;
+}
+
+.footer__menu__item {
+    flex-basis:20%;
+    
+}
+.footer__menu__item:hover{
+    text-decoration: underline;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    flex-basis:38%;
+}
+
+.footer__contacts {
+    display: flex;
+    
+    flex-direction:column;
+    justify-content: center;
+    flex-basis:35%;
+    
+}
