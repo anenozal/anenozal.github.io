@@ -1,0 +1,169 @@
+
+
+.page {
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 3vw;
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    height: 25vw;
+    width: 100%;
+    background: linear-gradient(to top,
+    aliceblue, whitesmoke, whitesmoke, aliceblue);
+    align-items:center;
+    justify-content: center;
+}
+.header__logo{
+    display: flex;
+    flex-direction:row;
+    flex-basis: 66.6666666666666%;
+}
+.header__sub-logo {
+    flex-basis: 50%;
+}
+
+.header__main-logo {
+    flex-basis: 50%;
+}
+.logo__img{
+    width:30vw;
+}
+
+
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+
+.contacts__sign-for {
+    display: block;
+    width: 87%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    
+    text-align: center;
+    color: white;
+    padding: 1vw 2vw 1vw 2vw;
+    background: linear-gradient(to bottom, #AA272D 0%,#8D2428 100%);
+    border-radius: 20vw;
+}
+
+.header__menu{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content:space-between;
+    background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); 
+    
+}
+.menu__link {
+    text-decoration: none;
+    color: inherit;
+}
+.header__menu__item {
+    
+    padding: 1vw 2vw 1vw 2vw;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); 
+}
+
+
+.content__coach{
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  justify-content:center;
+  background: linear-gradient(to left,
+    DarkSlateGray, LightSlateGray, SlateGray, LightSlateGray, DarkSlateGray);
+
+}
+
+.coach__info {
+  display: flex;
+  width: 80vw;
+  height: 50vw;  
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); 
+  align-items:center;
+  justify-content:space-around;
+}
+
+.info__photo{
+    display: flex;
+    flex-basis:45%;
+    width: 80%;
+    height: 80%;
+    
+    background-image: url(../img/coach.jpg);
+    background-size: cover;
+    border:0.1vw solid slategray;
+    box-shadow: 0 0 2vw 1vw slategray;
+   
+}
+.info__text{
+    flex-basis:45%;
+}
+.text__beginning{
+    font-weight: bold;
+    
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    border-top:0.3vw solid black;
+    justify-content: flex-start;
+    width: 100%;
+    height: 20vw;
+    background: linear-gradient(to top,
+    aliceblue, whitesmoke, whitesmoke, aliceblue);
+    padding: 2vw 0 2vw 0;
+     margin:0;
+}
+
+.footer__menu {
+    margin:0;
+    display: flex;
+    flex-direction:column;
+    flex-basis:33.333333333333333333%;
+    justify-content:flex-around;
+    padding-left:5vw;
+    box-sizing: border-box;
+}
+
+.footer__menu__item {
+     margin:0;
+    list-style-type: none;
+     
+    
+}
+.footer__menu__item:hover{
+    text-decoration: underline;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    flex-basis:33.333333333333333333%;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+   
+    
+}
