@@ -3,7 +3,7 @@
         font-size: 7vw;
     }
     .text__beginning{
-       font-size: 8vw; 
+       font-size: 9vw; 
     }
     .header {
     display: -webkit-box;
@@ -41,7 +41,7 @@
 .header__menu__item {
     -ms-flex-preferred-size:100%;
         flex-basis:100%;
-    
+    font-size: 9vw; 
     border-bottom: 1vw solid black;
     border-right: none;
 }

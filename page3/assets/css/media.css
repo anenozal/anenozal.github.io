@@ -1,6 +1,9 @@
 @media screen and (min-width: 320px) and (max-width:480px){
     .page{
-        font-size: 5vw;
+        font-size: 7vw;
+    }
+    .sign-for__button{
+       font-size: 6vw; 
     }
     .header {
     display: -webkit-box;
@@ -38,12 +41,17 @@
 .header__menu__item {
     -ms-flex-preferred-size:100%;
         flex-basis:100%;
-    
+    font-size: 9vw;
     border-bottom: 1vw solid black;
     border-right: none;
 }
 
 .content__price{
+    height: 100vw;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
     background-image: none;
     background: -webkit-gradient(linear,
     right top, left top,
