@@ -98,7 +98,7 @@
 
 }
 
-@media screen and (min-width: 480px) and (max-width:768px){
+@media screen and (min-width: 480px) and (max-width:767px){
     .header{
         height: 60vw;
     }
@@ -235,7 +235,7 @@
     width: 92%;
 }
 .footer{
-    height: 30vw;
+    height: 32vw;
     
 }
 .footer__menu{
@@ -249,7 +249,7 @@
     
     -ms-flex-preferred-size:60%;
     
-        flex-basis:60%;
+    flex-basis:60%;
     text-align: left;
 }
 .footer__logo{

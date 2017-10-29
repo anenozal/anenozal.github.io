@@ -118,7 +118,7 @@
 
 }
 
-@media screen and (min-width: 480px) and (max-width:768px){
+@media screen and (min-width: 480px) and (max-width:767px){
     .header{
         height: 60vw;
     }
@@ -228,7 +228,7 @@
  
  
 .footer{
-    height: 30vw;
+    height: 32vw;
     
 }
 .footer__menu{
