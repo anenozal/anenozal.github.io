@@ -164,7 +164,7 @@
 .timetable__value {
   font-weight: bolder;
   width: 18vw;
-  height: 14vw;  
+  height: 20vw;  
   margin-bottom: 10vw;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)),to(rgba(255,255,255,0)));
   background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
