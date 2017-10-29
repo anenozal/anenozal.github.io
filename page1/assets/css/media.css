@@ -1,6 +1,9 @@
 @media screen and (min-width: 320px) and (max-width:480px){
     .page{
-        font-size: 5vw;
+        font-size: 7vw;
+    }
+    .text__beginning{
+       font-size: 8vw; 
     }
     .header {
     display: -webkit-box;
