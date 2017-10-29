@@ -46,14 +46,7 @@
     border-right: none;
 }
 
-.item-2, .item-3, .item-4, .item-5 {
-    display: none;
-}
-.item-1 {
-    -ms-flex-preferred-size:100%;
-        flex-basis:100%;
-}
-.item-1>span {
+.item-1,.item-2, .item-3, .item-4, .item-5 {
     display: none;
 }
 
